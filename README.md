@@ -1,17 +1,12 @@
-# Awesome AI Testing [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome AI Testing [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Lint](https://github.com/tugkanboz/awesome-ai-testing/actions/workflows/lint.yml/badge.svg)](https://github.com/tugkanboz/awesome-ai-testing/actions/workflows/lint.yml)
 
 > A curated list of AI-powered testing tools, frameworks, and resources for QA engineers.
 
 AI is reshaping software testing. This list collects tools, platforms, and resources that use AI or LLMs to generate tests, heal broken locators, triage failures, write assertions in natural language, and more. Both open source and commercial offerings are included, marked with badges so you can filter by what fits your stack.
 
-## Legend
-
-- 🆓 Open source
-- 💰 Commercial
-- 🆓💰 Open core (free tier or open source with paid features)
-
 ## Contents
 
+- [Legend](#legend)
 - [Test Generation](#test-generation)
 - [MCP-Based Testing](#mcp-based-testing)
 - [Self-Healing Test Frameworks](#self-healing-test-frameworks)
@@ -34,6 +29,12 @@ AI is reshaping software testing. This list collects tools, platforms, and resou
 - [Newsletters and Communities](#newsletters-and-communities)
 - [Benchmarks and Datasets](#benchmarks-and-datasets)
 - [Related Awesome Lists](#related-awesome-lists)
+
+## Legend
+
+- 🆓 Open source
+- 💰 Commercial
+- 🆓💰 Open core (free tier or open source with paid features)
 
 ## Test Generation
 
@@ -150,7 +151,6 @@ AI for failure analysis, flaky test detection, and reporting.
 
 Tools that use AI to fill coverage gaps and prioritize testing efforts.
 
-- [Qodo-Cover](https://github.com/qodo-ai/qodo-cover) 🆓 - Generates tests targeting uncovered code paths.
 - [Mutahunter](https://github.com/codeintegrity-ai/mutahunter) 🆓 - LLM-based mutation testing for stronger test suites.
 - [Stryker Mutator](https://github.com/stryker-mutator/stryker-js) 🆓 - Mutation testing framework that pairs well with AI test generators.
 
@@ -206,7 +206,6 @@ AI features for API testing, schema generation, and contract validation.
 Tools to test LLM applications themselves (security, robustness, hallucination).
 
 - [Garak](https://github.com/NVIDIA/garak) 🆓 - LLM vulnerability scanner from NVIDIA.
-- [Promptfoo](https://github.com/promptfoo/promptfoo) 🆓💰 - LLM red teaming and evaluation framework.
 - [DeepTeam](https://github.com/confident-ai/deepteam) 🆓 - LLM red teaming for prompt injection, jailbreaks, and data leaks.
 - [llm-security-scanner](https://github.com/tugkanboz/llm-security-scanner) 🆓 - Red-team toolkit with OWASP LLM Top 10 alignment and Turkish payload library.
 - [Giskard](https://github.com/Giskard-AI/giskard) 🆓💰 - Testing framework for LLMs and ML models.
@@ -270,9 +269,3 @@ Learning resources for AI-powered testing.
 ## Contributing
 
 Contributions are welcome. Please read the [contribution guidelines](contributing.md) before opening a pull request.
-
-## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, [Tuğkan Boz](https://github.com/tugkanboz) has waived all copyright and related or neighboring rights to this work.
