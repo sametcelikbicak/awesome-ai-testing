@@ -23,6 +23,7 @@ AI is reshaping software testing. This list collects tools, platforms, and resou
 - [Test Analytics and Triage](#test-analytics-and-triage)
 - [Code Coverage with AI](#code-coverage-with-ai)
 - [AI Test Data Generation](#ai-test-data-generation)
+- [Mock and Service Virtualization](#mock-and-service-virtualization)
 - [Performance Testing with AI](#performance-testing-with-ai)
 - [AI for Accessibility Testing](#ai-for-accessibility-testing)
 - [API Testing with AI](#api-testing-with-ai)
@@ -39,6 +40,8 @@ AI is reshaping software testing. This list collects tools, platforms, and resou
 Tools that generate test cases from code, requirements, or user behavior using AI.
 
 - [Qodo-Cover](https://github.com/qodo-ai/qodo-cover) 🆓 - AI-powered tool for automated test generation and code coverage enhancement.
+- [EvoMaster](https://github.com/EMResearch/EvoMaster) 🆓 - First open source AI tool that automatically generates test cases via evolutionary algorithms for REST, GraphQL, and RPC APIs.
+- [EvoSuite](https://github.com/EvoSuite/evosuite) 🆓 - Generates JUnit tests using evolutionary and genetic search-based algorithms for Java.
 - [CodiumAI / Qodo](https://www.qodo.ai/) 💰 - AI assistant generating meaningful tests from code context.
 - [Diffblue Cover](https://www.diffblue.com/) 💰 - Autonomous Java unit test writer using reinforcement learning.
 - [GitHub Copilot](https://github.com/features/copilot) 💰 - AI pair programmer that generates test code in Playwright, Cypress, Selenium across editors.
@@ -52,7 +55,7 @@ Tools and servers that use the Model Context Protocol to give AI agents browser 
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) 🆓 - Official Playwright MCP server giving AI agents full browser control through structured accessibility snapshots.
 - [Playwright CLI](https://github.com/microsoft/playwright-cli) 🆓 - Token-efficient CLI for coding agents like Claude Code and GitHub Copilot, with installable skills.
 - [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) 🆓 - Official MCP server from the Chrome DevTools team, with 26 tools for browser automation, debugging, and performance analysis.
-- [ExecuteAutomation Playwright MCP](https://github.com/executeautomation/mcp-playwright) 🆓 - Community Playwright MCP server with API testing support, 143 device emulation profiles.
+- [ExecuteAutomation Playwright MCP](https://github.com/executeautomation/mcp-playwright) 🆓 - Community Playwright MCP server with API testing support and 143 device emulation profiles.
 - [BrowserTools MCP](https://github.com/AgentDeskAI/browser-tools-mcp) 🆓 - Browser monitoring and console log access for AI agents via Chrome extension.
 
 ## Self-Healing Test Frameworks
@@ -70,6 +73,7 @@ Tools that automatically repair broken test locators and adapt to UI changes.
 
 End-to-end testing platforms with AI at the core.
 
+- [TestZeus Hercules](https://github.com/test-zeus-ai/testzeus-hercules) 🆓 - World's first open-source testing agent for UI, API, security, accessibility, and visual validations, no code required.
 - [Octomind](https://www.octomind.dev/) 💰 - Auto-generated, run, and maintained Playwright tests with AI test case discovery.
 - [Mabl](https://www.mabl.com/) 💰 - Low-code platform with auto-healing and ML-based test maintenance.
 - [Meticulous](https://www.meticulous.ai/) 💰 - Records real user sessions and generates regression tests automatically.
@@ -95,15 +99,15 @@ AI-powered tools specifically for mobile app testing.
 
 Visual regression and UI verification powered by AI.
 
-- [Applitools Eyes](https://applitools.com/) 💰 - Visual AI platform with cross-browser and cross-device verification.
-- [Percy](https://percy.io/) 💰 - Visual review and regression testing, part of BrowserStack.
-- [Chromatic](https://www.chromatic.com/) 💰 - Visual and interaction tests for Storybook.
 - [Lost Pixel](https://github.com/lost-pixel/lost-pixel) 🆓💰 - Open source visual regression testing.
 - [Loki](https://github.com/oblador/loki) 🆓 - Visual regression testing for Storybook.
 - [Argos](https://github.com/argos-ci/argos) 🆓💰 - Open source visual testing for engineering teams.
-- [Happo](https://happo.io/) 💰 - Cross-browser screenshot testing with Playwright, Cypress, Storybook integrations.
 - [BackstopJS](https://github.com/garris/BackstopJS) 🆓 - Visual regression testing for responsive web UIs.
 - [Pixelmatch](https://github.com/mapbox/pixelmatch) 🆓 - Pixel-level image comparison library.
+- [Applitools Eyes](https://applitools.com/) 💰 - Visual AI platform with cross-browser and cross-device verification.
+- [Percy](https://percy.io/) 💰 - Visual review and regression testing, part of BrowserStack.
+- [Chromatic](https://www.chromatic.com/) 💰 - Visual and interaction tests for Storybook.
+- [Happo](https://happo.io/) 💰 - Cross-browser screenshot testing with Playwright, Cypress, and Storybook integrations.
 
 ## Natural Language Test Authoring
 
@@ -112,9 +116,9 @@ Write tests using plain English (or other natural languages).
 - [Shortest](https://github.com/anti-work/shortest) 🆓 - QA via natural language AI tests, built on Playwright.
 - [Magnitude](https://github.com/magnitudedev/magnitude) 🆓 - AI-native, vision-first testing framework that lets you write E2E tests in plain language.
 - [Auto Playwright](https://github.com/lucgagan/auto-playwright) 🆓 - Run Playwright tests with AI through plain text prompts.
-- [ZeroStep](https://zerostep.com/) 💰 - Plain English test steps that compile to Playwright actions.
 - [Passmark](https://github.com/bug0inc/passmark) 🆓 - Open-source AI regression testing framework on Playwright with intelligent caching, auto-healing, and multi-model verification.
 - [Midscene.js](https://github.com/web-infra-dev/midscene) 🆓 - AI-driven UI automation with natural language commands.
+- [ZeroStep](https://zerostep.com/) 💰 - Plain English test steps that compile to Playwright actions.
 
 ## LLM-as-Judge Evaluation
 
@@ -134,8 +138,8 @@ Use LLMs to evaluate test outputs, assertions, and quality.
 
 AI for failure analysis, flaky test detection, and reporting.
 
-- [Allure TestOps](https://qameta.io/) 💰 - Test management with AI-driven analytics and flaky detection.
 - [ReportPortal](https://github.com/reportportal/reportportal) 🆓💰 - Open source results management with ML-based failure clustering.
+- [Allure TestOps](https://qameta.io/) 💰 - Test management with AI-driven analytics and flaky detection.
 - [Sealights](https://www.sealights.io/) 💰 - Quality intelligence platform using ML for test gap analysis.
 - [Trunk Flaky Tests](https://trunk.io/flaky-tests) 💰 - ML-based flaky test detection and quarantine.
 - [Datadog CI Visibility](https://www.datadoghq.com/product/ci-cd-monitoring/) 💰 - Test analytics with flaky test detection across CI pipelines.
@@ -154,37 +158,48 @@ Tools that use AI to fill coverage gaps and prioritize testing efforts.
 
 Tools that use AI to generate realistic test data, fixtures, and edge cases.
 
+- [Faker.js](https://github.com/faker-js/faker) 🆓 - Standard fake data library, often paired with AI for context-aware data.
 - [Mockaroo](https://www.mockaroo.com/) 🆓💰 - Realistic test data generation with AI-suggested schemas.
 - [Synthesized](https://www.synthesized.io/) 💰 - AI-driven synthetic data platform for testing.
 - [Tonic.ai](https://www.tonic.ai/) 💰 - Generate realistic safe test data from production using AI.
-- [Faker.js](https://github.com/faker-js/faker) 🆓 - Standard fake data library, often paired with AI for context-aware data.
 - [Gretel](https://gretel.ai/) 💰 - Synthetic data platform with AI-generated test datasets.
+
+## Mock and Service Virtualization
+
+Tools for mocking external services, LLM APIs, and dependencies in AI testing pipelines.
+
+- [Mountebank](https://github.com/mountebank-testing/mountebank) 🆓 - Mature open source service virtualization for HTTP, HTTPS, TCP, and SMTP protocols. Supports stubbing, mock verification, and record-playback.
+- [WireMock](https://github.com/wiremock/wiremock) 🆓💰 - Industry standard HTTP mocking with 7.1k stars and a native MCP server in the cloud version for AI coding assistants.
+- [Mockoon](https://github.com/mockoon/mockoon) 🆓 - GUI-based open source API mocking tool, easy to set up.
+- [Pact](https://github.com/pact-foundation/pact-specification) 🆓 - Contract testing framework for microservices and API consumers.
+- [MSW (Mock Service Worker)](https://github.com/mswjs/msw) 🆓 - API mocking library for browser and Node.js, ideal for frontend AI testing.
+- [Hoverfly](https://github.com/SpectoLabs/hoverfly) 🆓 - Lightweight service virtualization with proxy-based recording and replay.
 
 ## Performance Testing with AI
 
 AI-enhanced performance, load, and chaos testing.
 
 - [k6](https://github.com/grafana/k6) 🆓💰 - Open-source load testing tool, increasingly paired with AI for scenario generation.
+- [WebPageTest](https://www.webpagetest.org/) 🆓💰 - Performance testing with AI-suggested optimizations.
 - [LoadView](https://www.loadview-testing.com/) 💰 - Cloud-based load testing with AI-powered insights.
 - [Akamas](https://www.akamas.io/) 💰 - AI-driven performance optimization and tuning.
-- [WebPageTest](https://www.webpagetest.org/) 🆓💰 - Performance testing with AI-suggested optimizations.
 
 ## AI for Accessibility Testing
 
 AI-powered accessibility scanners and remediation tools.
 
+- [Pa11y](https://github.com/pa11y/pa11y) 🆓 - Open-source automated accessibility testing tool.
 - [Axe DevTools](https://www.deque.com/axe/devtools/) 💰 - AI-powered accessibility scanner from Deque.
 - [Evinced](https://www.evinced.com/) 💰 - AI-driven accessibility testing platform.
 - [UserWay](https://userway.org/) 🆓💰 - AI-powered WCAG compliance scanner.
-- [Pa11y](https://github.com/pa11y/pa11y) 🆓 - Open-source automated accessibility testing tool.
 
 ## API Testing with AI
 
 AI features for API testing, schema generation, and contract validation.
 
-- [Postman](https://www.postman.com/) 🆓💰 - AI-assisted API test generation and contract validation.
 - [Keploy](https://github.com/keploy/keploy) 🆓 - Generates API tests and mocks from real traffic, with AI assertion generation.
 - [Stepci](https://github.com/stepci/stepci) 🆓💰 - API testing framework with AI-suggested assertions.
+- [Postman](https://www.postman.com/) 🆓💰 - AI-assisted API test generation and contract validation.
 
 ## LLM and AI System Testing
 
@@ -208,8 +223,8 @@ Browser automation libraries designed for or commonly used by AI agents.
 - [Stagehand](https://github.com/browserbase/stagehand) 🆓 - AI browser automation with predictable yet flexible APIs.
 - [Skyvern](https://github.com/Skyvern-AI/skyvern) 🆓💰 - Automate browser-based workflows using LLMs and computer vision.
 - [Steel Browser](https://github.com/steel-dev/steel-browser) 🆓 - Open-source browser API for AI agents.
-- [Browserbase](https://www.browserbase.com/) 💰 - Cloud browser infrastructure with natural language automation.
 - [Patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright) 🆓 - Patched Playwright for stealth automation.
+- [Browserbase](https://www.browserbase.com/) 💰 - Cloud browser infrastructure with natural language automation.
 
 ## Articles and Talks
 
